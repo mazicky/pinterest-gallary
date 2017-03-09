@@ -1,0 +1,39 @@
+
+
+#main {
+    padding: 100px;
+}
+
+@media all and (max-width: 500px) {
+    .row {
+        column-count: 1;
+    }
+}
+@media all and (min-width: 501px) and (max-width: 768px) {
+    .row {
+        column-count: 2;
+    }
+}
+@media all and (min-width: 769px) {
+    .row {
+        column-count: 3;
+    }
+}
+
+.card {
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.face {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+}
